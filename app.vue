@@ -13,3 +13,22 @@
     
   </div>
 </template>
+
+<script setup lang="ts">
+  /**
+   * 网站配置(主要是利于SEO)
+   *  title:网站的标题
+   *  description:网站的描述
+   *  keywords:网站关键字
+   */
+  useSeoMeta({
+    title:"重庆市红十字会",
+    description:"重庆市红十字会官网",
+    keywords:"重庆市,红十字会,政府,救护"
+
+  })
+</script>
+<style>
+
+</style>
+
