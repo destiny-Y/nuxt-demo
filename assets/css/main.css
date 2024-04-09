@@ -1,0 +1,68 @@
+:root {
+  --comColor: #bb2b32;
+  --fontSize14: 14px;
+  --fontSize16: 16px;
+  --fontSize18: 18px;
+  --fontSize20: 20px;
+  --font-white: #fff;
+  --font-black: #101010;
+  --font-weigth: 700;
+  --bg: #faf3f3;
+  --bg1: #ffeff0;
+}
+#app {
+  min-height: 100vh;
+}
+.w1200 {
+  margin: 0 auto;
+  width: 1200px;
+}
+.minW1200 {
+  margin: 0 auto;
+  min-width: 1200px;
+}
+.logozi1,
+.logozi2 {
+  font-weight: 700;
+  color: #e20e0e;
+}
+.logozi1 {
+  font-size: 28px;
+}
+.logozi2 {
+  font-size: 12px;
+  margin-top: 6px;
+}
+.box-main {
+  /* min-height: calc(100vh - 220px - 48px - 258px); */
+  min-height: calc(100vh - 220px - 48px);
+  background-color: var(--bg);
+  padding-bottom: 50px;
+}
+.marginBottom22 {
+  margin-bottom: 22px !important;
+}
+.marginBottom50 {
+  margin-bottom: 50px;
+}
+.paddingLeft {
+  padding-left: 20px;
+}
+.paddingRight {
+  padding-right: 20px;
+}
+
+.title {
+  width: 100%;
+  padding: 10px 0 10px 5px;
+  color: var(--font-white);
+  font-size: var(--fontSize18);
+  background: var(--comColor);
+}
+
+li:hover {
+  color: var(--comColor) !important;
+}
+.cursor {
+  cursor: pointer;
+}
