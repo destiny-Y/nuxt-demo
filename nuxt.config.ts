@@ -3,6 +3,8 @@ export default defineNuxtConfig({
   // 是否开启调试工具
   devtools: { enabled: true },
   // 应用模块(引入element-Plus)
-  modules: ["@element-plus/nuxt"]
-  
+  modules: ["@element-plus/nuxt"],
+  // runtimeConfig:{
+
+  // }
 })
